@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #001d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hide{
+    display: none;
+
+}
+
+.container{
+    background-color: #003566;
+    -webkit-box-shadow: 0px 0px 23px 9px rgba(0,8,20,0.56); 
+    box-shadow: 0px 0px 23px 9px rgba(0,8,20,0.56);
+    color: white;
+
+    border-radius: 1rem; 
+}
+
+.text{
+    margin:1rem;
+}
+.form-input-container{
+ display: flex;   
+ 
+}
+.form input{
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.form button{
+    padding: 0.8rem;
+    min-height: 50px;
+    margin-left: 8px;
+    background-color: #001d3d;
+    color: white;
+    border: none;   
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+#Weather-data{
+    border-top: 1px solid #001d3d;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}         
+
+#Weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+#Weather-data h2 i{
+    font-size: 1rem;
+}
+#Weather-data h2 span{
+margin: 0.6rem ;
+}
+
+#county{
+    height: 15px;
+}
+
+#description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #umidity{
+    border-right: 1px solid white;
+    margin: 0.6rem;
+    padding: 0.6rem;
+    
+}
+#Weather-icon{
+    margin-bottom: 6px;
+}
